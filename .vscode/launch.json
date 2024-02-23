@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": ["swift"],
+      "args": [],
+      "cwd": "${workspaceFolder:Password Generator}",
+      "name": "Debug Password Generator",
+      "program": "${workspaceFolder:Password Generator}/.build/debug/Password Generator",
+      "preLaunchTask": "swift: Build Debug Password Generator"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": ["swift"],
+      "args": [],
+      "cwd": "${workspaceFolder:Password Generator}",
+      "name": "Release Password Generator",
+      "program": "${workspaceFolder:Password Generator}/.build/release/Password Generator",
+      "preLaunchTask": "swift: Build Release Password Generator"
+    }
+  ]
+}
